@@ -5,7 +5,7 @@
     BreadcrumbsService.$inject = ["$window"];
 
     function BreadcrumbsService($window) {
-        var me = this;
+        var me = thisxx;
         me.breadcrumbsToAdd = [];
         me.breadcrumbsToAdd.push({
             left: {
